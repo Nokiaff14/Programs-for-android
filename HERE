@@ -2,5 +2,8 @@ My device: Android
 Termux version: 0.118.1
 Termux:API: yes
 Android: 13
-Root: no
+Root: No
 Model: Samsung A12
+Termux: Fdroid
+Termux:API: Fdroid
+Download Fdroid: https://trashbox.ru/link/f-droid-android
