@@ -4,11 +4,12 @@ Termux:API: yes
 Android: 13
 Root: No
 Model: Samsung A12
+DPI: 501
 Termux: Fdroid
 Termux:API: Fdroid
 Download Fdroid: https://trashbox.ru/link/f-droid-android
 Discord: https://discord.com/invite/AqEVwnTGDN
-Uh: Uh
+
 Termux packages & instalatuon⬇️
 (Example. python: pkg ...)
 1. Update: pkg update
@@ -16,9 +17,12 @@ Termux packages & instalatuon⬇️
 3. (apt): apt update
 4. (apt): apt upgrade
 5. (continue) upgrading recomended packages:
-- apt
-- ca-certificates
-- command-not-found
+- apt/stable 2.7.14-1 aarch [upgradable from: 2.7.14]
+
+- ca-certificates/stable 1:2024.07.02 all [upgradable from: 1:2024.03.11-2]
+
+- command-not-found/stable 2.4.0-33 aarch64 [upgradable from: 2.4.0-29]
+
 - debianutils
 - less
 - libandroid-support
