@@ -69,5 +69,8 @@ Full Termux instalation process, just copy these commands and paste in Termux te
 22. pkg install python
 23. pkg install python2
 24. pkg install python3
+25. pkg update
 Or run by a single command:
-termux-setup-storage && pkg update && pkg upgrade && pkg install apt && pkg install ca-certificates && pkg install command-not-found && pkg install debianutils && pkg install less && pkg install libandroid-support && pkg install libgcrypt && pkg install liblz4 && pkg install libnghttp3 && pkg install libunbound && pkg install patch && pkg install termux-keyring && apt update && apt upgrade && pkg up -y && apt install git && pkg install wget && pkg install python && pkg install python2 && pkg install python3
+termux-setup-storage && pkg update && pkg upgrade && pkg install apt && pkg install ca-certificates && pkg install command-not-found && pkg install debianutils && pkg install less && pkg install libandroid-support && pkg install libgcrypt && pkg install liblz4 && pkg install libnghttp3 && pkg install libunbound && pkg install patch && pkg install termux-keyring && apt update && apt upgrade && pkg up -y && apt install git && pkg install wget && pkg install python && pkg install python2 && pkg install python3 && pkg update
+
+If you still get this message "<number> packages can be upgraded. Run 'apt list --upgradable' to see them.", create a ticket in discord server or issue with description and image.
