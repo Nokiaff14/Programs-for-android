@@ -9,3 +9,22 @@ Termux:API: Fdroid
 Download Fdroid: https://trashbox.ru/link/f-droid-android
 Discord: https://discord.com/invite/AqEVwnTGDN
 Uh: Uh
+Termux packages & instalatuon⬇️
+(Example. python: pkg ...)
+1. Update: pkg update
+2. Upgrade: pkg upgrade
+3. (apt): apt update
+4. (apt): apt upgrade
+5. (continue) upgrading recomended packages:
+- apt
+- ca-certificates
+- command-not-found
+- debianutils
+- less
+- libandroid-support
+- libgcrypt
+- liblz4
+- libnghttp3
+- libunbound
+- patch
+- termux-keyring
