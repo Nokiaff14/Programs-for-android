@@ -42,3 +42,28 @@ I = libnghttp3/stable 1.4.0 aarch64 [upgradable from: 1.3.0]
 J = libunbound/stable 1.20.0-1 aarch64 [upgradable from: 1.20.0]
 K = patch/stable 2.7.6-4 aarch64 [upgradable from: 2.7.6-3]
 L = termux-keyring/stable 3.12-1 all [upgradable from:3.12]
+
+Full Termux instalation process, just copy these commands and paste in Termux terminal and if it ask for "Y or N", "Y, N, O, D" or whatever, choose only "Y".
+1. termux-setup-storage
+2. pkg update
+3. (if after "pkg update" it says "12 packages can be upgraded. Run 'apt list --upgradable' to see them.", ignore it)
+4. pkg install apt
+5. pkg install ca-certificates
+6. pkg install command-not-found
+7. pkg install debianutils
+8. pkg install less
+9. pkg install libandroid-support
+10. pkg install libgcrypt
+11. pkg install liblz4
+12. pkg install libnghttp3
+13. pkg install libunbound
+14. pkg install patch
+15. pkg install termux-keyring
+16. apt update
+17. apt upgrade
+18. pkg up -y
+19. apt install git
+20. pkg install wget
+21. pkg install python
+22. pkg install python2
+23. pkg install python3
