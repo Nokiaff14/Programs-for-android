@@ -45,25 +45,29 @@ L = termux-keyring/stable 3.12-1 all [upgradable from:3.12]
 
 Full Termux instalation process, just copy these commands and paste in Termux terminal and if it ask for "Y or N", "Y, N, O, D" or whatever, choose only "Y".
 1. termux-setup-storage
+  - allow the permission
 2. pkg update
-3. (if after "pkg update" it says "12 packages can be upgraded. Run 'apt list --upgradable' to see them.", ignore it)
-4. pkg install apt
-5. pkg install ca-certificates
-6. pkg install command-not-found
-7. pkg install debianutils
-8. pkg install less
-9. pkg install libandroid-support
-10. pkg install libgcrypt
-11. pkg install liblz4
-12. pkg install libnghttp3
-13. pkg install libunbound
-14. pkg install patch
-15. pkg install termux-keyring
-16. apt update
-17. apt upgrade
-18. pkg up -y
-19. apt install git
-20. pkg install wget
-21. pkg install python
-22. pkg install python2
-23. pkg install python3
+3. pkg upgrade
+4. (if after "pkg update" it says "12 packages can be upgraded. Run 'apt list --upgradable' to see them.", ignore it)
+5. pkg install apt
+6. pkg install ca-certificates
+7. pkg install command-not-found
+8. pkg install debianutils
+9. pkg install less
+10. pkg install libandroid-support
+11. pkg install libgcrypt
+12. pkg install liblz4
+13. pkg install libnghttp3
+14. pkg install libunbound
+15. pkg install patch
+16. pkg install termux-keyring
+17. apt update
+18. apt upgrade
+19. pkg up -y
+20. apt install git
+21. pkg install wget
+22. pkg install python
+23. pkg install python2
+24. pkg install python3
+Or run by a single command:
+termux-setup-storage && pkg update && pkg upgrade && pkg install apt && pkg install ca-certificates && pkg install command-not-found && pkg install debianutils && pkg install less && pkg install libandroid-support && pkg install libgcrypt && pkg install liblz4 && pkg install libnghttp3 && pkg install libunbound && pkg install patch && pkg install termux-keyring && apt update && apt upgrade && pkg up -y && apt install git && pkg install wget && pkg install python && pkg install python2 && pkg install python3
