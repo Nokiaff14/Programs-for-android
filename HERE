@@ -74,3 +74,45 @@ Or run by a single command:
 termux-setup-storage && pkg update && pkg upgrade && pkg install apt && pkg install ca-certificates && pkg install command-not-found && pkg install debianutils && pkg install less && pkg install libandroid-support && pkg install libgcrypt && pkg install liblz4 && pkg install libnghttp3 && pkg install libunbound && pkg install patch && pkg install termux-keyring && apt update && apt upgrade && pkg up -y && apt install git && pkg install wget && pkg install python && pkg install python2 && pkg install python3 && pkg update
 
 If you still get this message "<number> packages can be upgraded. Run 'apt list --upgradable' to see them.", create a ticket in discord server or issue with description and image.
+Last step is to install the editor, i will use vim but you can use any orther.
+Instalation vim and C++
+- pkg install clang
+- pkg install cmake
+- pkg install make
+- pkg install g++
+- pkg install ndk-sysroot
+
+Error possible:
+- E: Unable to locate package g+
+
+Resolvation:
+Run this command
+- pkg install gcc
+And if im right, will be write a word like this "libllvm" then run this command
+- pkg install libllvm
+
+Next, we will install vim.
+To do that, run this command
+- pkg install vim
+
+Next, to create a hello world first program
+- vim hello.cpp
+
+Which cpp is the file used for C++ language
+
+Once we are in the editor, press "I" to write and write(i recomend that) or copy this code
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+Now, to save and exit press ESC and type :wq (and press enter if you didn't)
+After that, we need to compile the program using clang for it
+- clang++ hello.cpp -o hello
+
+To run, do this command
+- ./hello
+
+Congratulations, you completed the guide.
