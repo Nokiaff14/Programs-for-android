@@ -9,6 +9,19 @@ But before that, we need to know these topics:
 2. Basic Syntax and Structure
   - Learn about variables, data types, operators, and basic input/output (IO) in C++
 3. Control Flow
-  - 
+  - Understand if, else, for, while loops, switch statements
 4. Functions
+  - Define and use functions in C++, including function parameters and return values
 5. Array and Strings
+  - Work with arrays in C-style strings (char arrays) in C++
+6. Object-Oriented Programming(OOP)
+  - Introduction to classes, objects, constructors, and methods
+7. Pointers and Memory Management
+  - Learn about pointers, dynamic memory allocation (new, delete), and smart pointers (std::unique_ptr, std::shared_ptr)
+8. Standart Template Library (STL)
+  - Explore containers (e.g., std::vector,std::map) and algorithms povided by the STL.
+
+Building the Snake Game
+1. Setup
+2. Game Board and Snake Movement
+3. Food Generation and Collision Detection
