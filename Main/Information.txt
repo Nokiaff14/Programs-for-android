@@ -1,1 +1,6 @@
-Information i guess
+User: ChatGPT 3.0
+Project: C++ Programs for Android
+Usage: Free
+Devices: Android
+Root: optional
+Version: 6+
