@@ -1,0 +1,14 @@
+For first, we need to understand what "compile" and "descompile" means.
+Compile - transforming human-readable code into machine-readable.
+Descompile - attempts to reverse this process, turning machine-readable code back into human-readable code.
+
+For first try to make a basic snake game from nokia3310 in C++
+But before that, we need to know these topics:
+1. Setup and Environment
+  - Ensure you have Termux set up with clang++ for compiling C++ code
+2. Basic Syntax and Structure
+  - Learn about variables, data types, operators, and basic input/output (IO) in C++
+3. Control Flow
+  - 
+4. Functions
+5. Array and Strings
