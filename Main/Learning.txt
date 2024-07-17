@@ -25,3 +25,43 @@ Building the Snake Game
 1. Setup
 2. Game Board and Snake Movement
 3. Food Generation and Collision Detection
+4. Game Logic
+5. User Input Handling
+6. Rendering
+7. Game Loop
+8. Advanced Features (Optional)
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+SETUP
+ - You have all setted up
+ - If you didnt then, read the file "HERE"
+
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+WRITING YOUR FIRST C++ PROGRAM
+1. Open vim to create a new file
+- vim hello.cpp
+
+2. Press i to edit the file
+
+3. Write or copy this program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+- This program uses "iostream" to output "Hello World!" to the console
+
+4. Save and exit vim
+- Press Esc
+- Type :wq
+- Press enter
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+COMPILLING YOUR C++ PROGRAM
