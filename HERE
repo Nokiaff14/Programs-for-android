@@ -116,3 +116,12 @@ To run, do this command
 - ./hello
 
 Congratulations, you completed the guide.
+
+Compilling explaination:
+clang++ = compile command
+hello.cpp = file we created
+-o = (o, not zero) compilling 
+hello = file compilled
+
+after that we just run:
+./hello
